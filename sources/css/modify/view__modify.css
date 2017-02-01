@@ -1,0 +1,6 @@
+._bg--cover{
+    background-size: cover !important;
+}
+._bg--contain{
+    background-size: contain !important;
+}

@@ -1,0 +1,29 @@
+._block--center{
+    margin: 0 auto;
+}
+._block-box--border{
+    box-sizing: border-box;
+}
+._block-box--content{
+    box-sizing: content-box;
+}
+@media (min-width: 0) and (max-width: 640px) {
+    ._block--screen{
+        min-width: 320px;
+    }
+}
+@media (min-width: 641px) and (max-width: 768px) {
+    ._block--screen{
+        min-width: 640px;
+    }
+}
+@media (min-width: 769px) and (max-width: 980px){
+    ._block--screen{
+        min-width: 768px;
+    }
+}
+@media (min-width: 981px) {
+    ._block--screen{
+        width: 980px;
+    }
+}

@@ -1,0 +1,16 @@
+/*
+* Common styles from template TOP-TOP.
+* http://toptop.ru/
+*/
+html{
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    color: black;
+    background: white;
+}
