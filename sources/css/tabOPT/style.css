@@ -1,0 +1,34 @@
+.page--content{
+    width: 100%;
+    height: 100%;
+}
+.page--content._desktop{
+    min-width: 768px;
+}
+.slider--row{
+    position: relative;
+}
+/*
+*
+*   Slider styles.
+*
+*/
+.products--row{
+    position: relative;
+}
+.products--block{
+    display: table;
+}
+.products--block .product--item{
+    display: inline-block;
+    width: 33.3333%;
+    padding: 2%;
+}
+.products--block .product--item a{
+
+}
+.products--block .product--item a img{
+    width: 100%;
+}
+
+

@@ -22,8 +22,13 @@
         min-width: 768px;
     }
 }
-@media (min-width: 981px) {
+@media (min-width: 981px) and (max-width: 1134px) {
     ._block--screen{
         width: 980px;
+    }
+}
+@media (min-width: 1135px) {
+    ._block--screen{
+        width: 1135px;
     }
 }
