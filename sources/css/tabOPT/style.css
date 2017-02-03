@@ -38,6 +38,10 @@
 .timeline--block{
 
 }
+.timeline--block p{
+    transition: linear 0.3s;
+    -webkit-transition: linear 0.3s;
+}
 .timeline--block .title--item{
     padding: 100px 0 50px;
 }
@@ -130,9 +134,6 @@
 .timeline--block .info--item .txt--td._small--size{
     padding: 30px 50px;
 }
-.timeline--block .info--item .txt--td p{
-    transition: linear 0.1s;
-}
 .timeline--block .info--item .txt--td ._bold-text{
     font-weight: 400;
 }
@@ -171,5 +172,31 @@
     color: #ffffff;
     background: #e6796a;
     cursor: pointer;
+}
+@media (min-width: 768px) and (max-width: 900px) {
+    .timeline--block .title--item p {
+        font-size: 38px;
+        line-height: 39px;
+    }
+    .timeline--block .info--item .txt--td._large--size {
+        padding: 30px 20px;
+    }
+    .timeline--block .info--item .txt--td._large--size p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .timeline--block .info--item .txt--td._small--size p{
+        padding: 5px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .timeline--block .info--item .txt--td._middle--size {
+        padding: 30px 50px 50px;
+    }
+    .timeline--block .info--item .txt--td._middle--size p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
