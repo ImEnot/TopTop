@@ -7,6 +7,20 @@
 }
 .slider--row{
     position: relative;
+    padding: 0 0 20px;
+}
+.slider--area{
+    width: 100%;
+    min-height: 400px;
+    background: url('../../img/_opt/slides/slide--bg.jpg') center no-repeat;
+}
+.slider--block{
+    position: relative;
+    top: 10px;
+}
+.slider--element{
+    width: 640px;
+    margin: auto;
 }
 /*
 *
