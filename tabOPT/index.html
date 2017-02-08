@@ -276,15 +276,80 @@
                     </div>
                 </div>
                 <div class="button--item _block-box--border">
-                    <div class="request--btn">ОСТАВИТЬ ЗАЯВКУ</div>
+                    <div class="request--btn" data-event-object="view:modal--row">ОСТАВИТЬ ЗАЯВКУ</div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="products--row">
+        <div class="products--block _block--screen _block--center">
+            <div class="product--title _block-box--border">
+                <p class="_size--big">Бесплатный фото-контент</p>
+                <p class="_size--average"> для рассылок, соцсетей или демонстрации покупателям</p>
+            </div>
+            <div class="product--item _block-box--border">
+                <a href="#">
+                    <img src="../sources/img/product--cup.jpg">
+                    <div class="info--line">
+                        <p>Платье-футляр из неопрена с рукавами-воланами Lipinskaya Brand</p>
+                        <p>999 р.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product--item _block-box--border">
+                <a href="#">
+                    <img src="../sources/img/product--cup.jpg">
+                    <div class="info--line">
+                        <p>Кожаные ботильоны-чулки с отделкой в виде звездной пыли SENSO</p>
+                        <p>999 р.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="product--item _block-box--border">
+                <a href="#">
+                    <img src="../sources/img/product--cup.jpg">
+                    <div class="info--line">
+                        <p>Двубортная юбка из денима с V-образным разрезом Lipinskaya Brand</p>
+                        <p>999 р.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal--row">
+        <div class="forms--block _block-box--border">
+            <p class="request--text _sub--title">Хотите сделать оптовый заказ?</p>
+            <p class="request--text _main--title">Оставьте заявку!</p>
+            <form class="request--send">
+                <div class="input--line">
+                    <span>Имя:</span>
+                    <input type="text" value="" class="_block-box--border">
+                </div>
+                <div class="input--line">
+                    <span>Город:</span>
+                    <input type="text" value="" class="_block-box--border">
+                </div>
+                <div class="input--line">
+                    <span>E-mail:</span>
+                    <input type="text" value="" class="_block-box--border">
+                </div>
+                <div class="input--line">
+                    <span>Телефон:</span>
+                    <input type="text" value="" class="_block-box--border">
+                </div>
+                <div class="input--line">
+                    <button>ОТПРАВИТЬ</button>
+                </div>
+            </form>
+            <div class="request--close" data-event-object="hide:modal--row"></div>
         </div>
     </div>
     <!-- TODO remove jQuery-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>
 
+    <script src="../sources/js/events/click.apply.js"></script>
     <script src="../sources/js/init.App.js"></script>
     <script>
         var swiper = new Swiper('.swiper-container', {

@@ -7,7 +7,7 @@
  *
  * * The required library -- jQuery.
  */
-;(function ($, window) {
+;(function ($, window, addEventListener) {
     'use strict';
 
     const page__App = (function() {
@@ -21,11 +21,15 @@
                 this.initialize(exports);
             },
             initialize : function(exports) {
-                console.log(exports);
+                var i = 0, k;
+                for (k in exports.Events) {
+                        new exports.Events[k];
+                    i++;
+                }
             }
         }
     }());
     (addEventListener || Error)('DOMContentLoaded', function () {
-        window.page__App = page__App.call(window);
+        window.page__App = page__App.call(window.page__App);
     });
-})(jQuery, window);
+})(window.jQuery, window, addEventListener);
