@@ -12,7 +12,7 @@
 .slider--area{
     width: 100%;
     min-height: 400px;
-    background: url('../../img/_opt/slides/slide--bg.jpg') center no-repeat;
+    background: url('../../img/tabOPT/slides/slide--bg.jpg') center no-repeat;
 }
 .slider--block{
     position: relative;
@@ -119,7 +119,7 @@
     left: 50%;
     margin-left: -14px;
     bottom: -14px;
-    background: url('../../img/_opt/icons/bool--i.png') center no-repeat;
+    background: url('../../img/tabOPT/icons/bool--i.png') center no-repeat;
     z-index: 3;
 }
 .timeline--block .info--item .table--line:last-child{
@@ -162,7 +162,7 @@
     left: 50%;
     margin-left: -25px;
     top: 0;
-    background: url('../../img/_opt/icons/time--i.png') center no-repeat;
+    background: url('../../img/tabOPT/icons/time--i.png') center no-repeat;
 }
 .timeline--block .info--item .txt--td._divider__i.__line:after{
     content: '';
@@ -304,7 +304,7 @@
     top: 20px;
     right: 30px;
     padding: 5px;
-    background: url('../../img/_opt/icons/close--i.png') center no-repeat;
+    background: url('../../img/tabOPT/icons/close--i.png') center no-repeat;
     z-index: 9;
     cursor: pointer;
 }
