@@ -1,0 +1,176 @@
+.page--content{
+    width: 100%;
+    height: 100%;
+}
+.page--content._desktop{
+    min-width: 768px;
+}
+.page--content._march--bg{
+    background: url('../../img/8march/bg--cup.jpg') center;
+    padding: 10px 0 50px;
+}
+.modal--content{
+    width: 1195px;
+    padding: 60px;
+    background: #ffffff;
+    box-shadow: 0 0 25px 0 #868585;
+    -webkit-box-shadow: 0 0 25px 0 #868585;
+}
+.modal--content .block--title{
+    text-align: center;
+}
+.modal--content .block--title p{
+    font-family: 'AGOptCyrillic Normal-Italic', sans-serif;
+    font-size: 148px;
+    color: #c52f52;
+}
+.modal--content .block--subtitle{
+    text-align: center;
+    padding: 30px 0;
+}
+.modal--content .block--subtitle p{
+    font-family: 'AGOptCyrillic Normal-Italic', sans-serif;
+    font-size: 39px;
+    line-height: 50px;
+    color: #646164;
+}
+.modal--content .block--subtitle p span{
+    display: block;
+}
+.modal--content .block--pict{
+    text-align: center;
+}
+.modal--content .block--text{
+    padding: 40px 70px;
+}
+.modal--content .block--text p.__font-regular{
+    font-family: "SegoeUIRegular", sans-serif;
+}
+.modal--content .block--text p.__font-semi-bold{
+    font-family: "SegoeUISemiBold", sans-serif;
+}
+.modal--content .block--text p{
+    font-size: 29px;
+    line-height: 34px;
+    color: #575656;
+    margin-bottom: 40px;
+}
+.modal--content .block--products{
+
+}
+.modal--content .block--products .title--line{
+    text-align: center;
+    background: url('../../img/8march/title--cup.png') center;
+}
+.modal--content .block--products .title--line p{
+    font-family: 'Gotham Pro', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 29px;
+    text-indent: 10px;
+    text-transform: uppercase;
+
+}
+.modal--content .block--products .goods--line{
+    padding: 45px 0;
+}
+.modal--content .block--products .goods--line .good--item{
+    display: inline-block;
+    max-width: 315px;
+    max-height: 315px;
+    width: 30%;
+}
+.modal--content .block--products .goods--line .good--item:nth-child(2) {
+    margin: 0 60px;
+}
+.modal--content .block--products .goods--line .good--item a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.modal--content .block--products .goods--line .good--item a img{
+    display: block;
+    width: 100%;
+}
+.modal--content .block--products .goods--line .good--item a .show--link{
+    padding: 15px 0;
+    text-align: center;
+    background: #000000;
+}
+.modal--content .block--products .goods--line .good--item a .show--link p{
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+@media (min-width: 0) and (max-width: 900px) {
+    .modal--content .block--title p{
+        font-size: 74px;
+    }
+    .modal--content .block--subtitle{
+        padding: 10px 0;
+    }
+    .modal--content .block--subtitle p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .modal--content .block--text{
+        padding: 5% 4%;
+    }
+    .modal--content .block--text p{
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 15px;
+    }
+    .modal--content .block--products .goods--line {
+        padding: 5% 0;
+    }
+    .modal--content .block--products .title--line p{
+        font-size: 14px;
+    }
+    .modal--content .block--products .goods--line .good--item a .show--link p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .modal--content .block--products .goods--line .good--item:nth-child(2) {
+        margin: 0 4%;
+    }
+}
+@media (min-width: 900px) and (max-width: 1194px) {
+    .modal--content .block--title p{
+        font-size: 100px;
+    }
+    .modal--content .block--subtitle{
+        padding: 20px 0;
+    }
+    .modal--content .block--subtitle p{
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .modal--content .block--text{
+        padding: 5% 10%;
+    }
+    .modal--content .block--text p{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .modal--content .block--products .title--line p{
+        font-size: 15px;
+    }
+    .modal--content .block--products .goods--line .good--item a .show--link p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .modal--content .block--products .goods--line .good--item:nth-child(2) {
+        margin: 0 4.3333%;
+    }
+}
+@media (min-width: 0) and (max-width: 1194px) {
+    .modal--content{
+        width: 90%;
+        padding: 5%;
+    }
+}
