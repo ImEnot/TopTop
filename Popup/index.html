@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Popup</title>
+    <link rel="stylesheet" type="text/css" href="../sources/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../sources/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../sources/css/common.css">
+
+    <link rel="stylesheet" type="text/css" href="../sources/css/modify/block__modify.css">
+    <link rel="stylesheet" type="text/css" href="../sources/css/modify/view__modify.css">
+
+    <link rel="stylesheet" type="text/css" href="../sources/css/Popup/style.css">
+</head>
+<body>
+    <div class="popup__wrapper">
+
+        <div class="popup__content _block-box--border _block--center" style="display: none;">
+            <div class="popup__title">
+                <p class="font__small text__center">Хотите получить доступ к</p>
+                <p class="font__large text__left">СЕКРЕТНЫМ</p>
+                <p class="font__middle text__right">АКЦИЯМ?</p>
+            </div>
+            <div class="popup__advantages">
+                <p class="ad__title">Вы будете раньше других узнавать:</p>
+                <div class="ad__lists _block--center">
+                    <p>о новых коллекциях на сайте</p>
+                    <p>о скидках только для подписчиков</p>
+                    <p>об эксклюзивных коллекциях бестселлеров</p>
+                </div>
+                <div class="ad__button btn__red _block-box--border">
+                    <span>Да, хочу</span>
+                </div>
+                <div class="ad__button btn__grey _block-box--border">
+                    <span>Нет, спасибо</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup__content _block-box--border _block--center" style="display: none;">
+            <div class="popup__title">
+                <p class="font__middle text__center">Пожалуйста,</p>
+                <p class="font__small text__center">укажите Ваше имя и email</p>
+            </div>
+            <div class="popup__form _block--center">
+                <form>
+                    <div class="popup__input">
+                        <span>Имя</span>
+                        <input type="text" placeholder="Введите ваше имя" class="_block-box--border">
+                    </div>
+                    <div class="popup__input">
+                        <span>Email</span>
+                        <input type="text" placeholder="Введите ваш email" class="_block-box--border">
+                    </div>
+                    <div class="ad__button btn__red _block-box--border">
+                        <span>Готово</span>
+                    </div>
+                </form>
+            </div>
+            <div class="popup__subtext _block--center">
+                <p>В первом письме вас ждет приятный<br/>сюрприз, не пропустите! </p>
+            </div>
+        </div>
+
+        <div class="popup__content _block-box--border _block--center" style="display: none;">
+            <div class="subscribe__title">
+                <p>Вы подписались на рассылки <span>TopTop.ru</span></p>
+            </div>
+            <div class="subscribe__content">
+                <p class="sub__middle">Мы отправили Вам письмо</p>
+                <p class="sub__middle_bold">с кодом на скидку</p>
+                <p class="sub__large">1000 р</p>
+                <p class="sub__middle">на первый заказ</p>
+            </div>
+            <div class="subscribe__button">
+                <div class="ad__button btn__red _block-box--border">
+                    <span>Вернуться к шопингу >></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup__content _block-box--border _block--center" style="display: none;">
+            <div class="cart__title">
+                <p>A как насчет...</p>
+            </div>
+            <div class="cart__discount">
+                <p class="cart__large">СКИДКИ 10%</p>
+                <p class="cart__small">на товары у вас в корзине?</p>
+            </div>
+            <div class="cart__form _block--center">
+                <from>
+                    <input type="text" placeholder="Введите ваш email..." class="_block-box--border" />
+                    <button class="_block-box--border">получить скидку</button>
+                </from>
+                <p>На указанный вами email придет письмо с промо-кодом на скидку</p>
+            </div>
+        </div>
+
+        <div class="popup__close"></div>
+    </div>
+</body>
+</html>

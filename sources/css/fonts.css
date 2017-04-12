@@ -582,3 +582,75 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "PFRegalDisplayPro-Black";
+    src: url("../fonts/PFRegalDisplayPro-Black.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-BlackItalic";
+    src: url("../fonts/PFRegalDisplayPro-BlackItalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-Bold";
+    src: url("../fonts/PFRegalDisplayPro-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-BoldItalic";
+    src: url("../fonts/PFRegalDisplayPro-BoldItalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-Italic";
+    src: url("../fonts/PFRegalDisplayPro-Italic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-Medium";
+    src: url("../fonts/PFRegalDisplayPro-Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-MediumItalic";
+    src: url("../fonts/PFRegalDisplayPro-MediumItalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-Regular";
+    src: url("../fonts/PFRegalDisplayPro-Regular.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-UBlack";
+    src: url("../fonts/PFRegalDisplayPro-UBlack.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "PFRegalDisplayPro-UBlackItalic";
+    src: url("../fonts/PFRegalDisplayPro-UBlackItalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "book-antiqua";
+    src: url("../fonts/book-antiqua.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "playfair-display-italic";
+    src: url("../fonts/playfair-display-italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
