@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Lato-LightItalic';
+    src: local('Lato-LightItalic'), local('Lato-LightItalic'), url('Lato-LightItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
