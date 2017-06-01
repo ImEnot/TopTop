@@ -43,6 +43,9 @@ html{
 .page__layout.__content{
     padding: 0 22px;
 }
+.page__layout.__related{
+/*    padding: 0 22px;*/
+}
 .page__layout.__footer{
     position: relative;
     margin-top: 50px;
@@ -565,6 +568,123 @@ html{
     font-size: 11px;
     line-height: 12px;
 }
+
+
+
+.related__block{
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0;
+}
+.related__block .title{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f6f5f5;
+}
+.related__block .title p{
+    position: relative;
+    display: inline-block;
+    top: 1px;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: 2px solid #000000;
+}
+.related__block .history{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+.related__block .history p{
+    display: inline-block;
+    color: #939597;
+    font-size: 13px;
+    line-height: 18px;
+    border-bottom: 1px dotted #939597;
+    cursor: pointer;
+}
+.related__block .history p:hover{
+    border-bottom: 1px solid transparent;
+}
+.related__block .swiper{
+    display: inline-block;
+    padding: 15px 0;
+    height: 410px;
+    width: 100%;
+}
+.related__block .swiper .slider__nav{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 33%;
+    z-index: 8;
+    background: url('../img/template/slider/nav__slider.png') no-repeat;
+    cursor: pointer;
+}
+.related__block .swiper .slider__nav.nav__prev{
+    background-position: 0 0;
+    left: 0;
+}
+.related__block .swiper .slider__nav.nav__next{
+    background-position: -50px 0;
+    right: 0;
+}
+.related__block .swiper .swiper__related{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.related__block .swiper .swiper-wrapper{
+    padding: 0 22px;
+}
+.related__block .swiper .swiper-wrapper.__single{
+    justify-content: center;
+}
+.related__block .swiper .swiper-wrapper a.swiper__link{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    text-decoration: none;
+}
+.related__block .swiper .swiper-wrapper a.swiper__link .__description{
+    display: inline-block;
+    width: 185px;
+    vertical-align: top;    
+}
+.related__block .swiper .swiper-wrapper a.swiper__link .__description .name{
+    padding: 10px 0 5px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+.related__block .swiper .swiper-wrapper a.swiper__link .__description .price{
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+}
+.related__block .swiper .swiper-wrapper a.swiper__link .__description .size{
+    color: #a4a4a6;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
