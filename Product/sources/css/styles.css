@@ -71,7 +71,7 @@ html{
 }
 .page__row.__menu a{
     font-size: 14px;
-    line-height: 1;
+    line-height: 16px;
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ html{
     position: relative;
     display: inline-block;
     vertical-align: middle;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 .page__row.__personal .personal__block.__search{
     padding: 0;
@@ -124,6 +124,142 @@ html{
     height: 20px;
     background: url('../img/template/icons/cart__icon.png') no-repeat;
 }
+.page__row.__personal .personal__block div.cart__detail{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background: #ffffff;
+    z-index: 99;
+}
+.page__row.__personal .personal__block div.cart__detail{
+    max-width: 585px;
+    max-height: 100%;
+    overflow: scroll;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__close{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 35px;
+    height: 35px;    
+    background: url('../img/template/icons/close__icon.png') no-repeat;
+    cursor: pointer;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__title{
+    display: table;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__title p{
+    color: #939597;
+    font-size: 18px;
+    line-height: 22px;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product{    
+    width: 100%;
+}
+.page__row.__personal .personal__block div.cart__detail .product__line{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 25px;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product a{
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row{
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__photo{
+    width: 145px;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__info{
+    width: 320px;
+    padding: 10px 0;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__info p{
+    max-width: 200px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__price{
+    width: 95px;
+    padding: 10px 15px 10px 0;
+    text-align: right;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__price p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__price p.__old{
+    color: #c6c8ca;
+    text-decoration: line-through;
+}
+.page__row.__personal .personal__block div.cart__detail .cart__product .row.__price p.__new{
+    color: #d0011b;
+}
+.page__row.__personal .personal__block div.cart__total{
+    width: 100%;
+}
+.page__row.__personal .personal__block div.cart__total .total__line{
+    display: table;
+    width: 100%;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #f4f3f3;
+}
+.page__row.__personal .personal__block div.cart__total .row{
+    display: table-cell;
+    width: 50%;
+}
+.page__row.__personal .personal__block div.cart__total p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.page__row.__personal .personal__block div.cart__total .row.__text{
+    text-align: left;
+}
+.page__row.__personal .personal__block div.cart__total .row.__summ{
+    text-align: right;
+}
+.page__row.__personal .personal__block div.cart__issue{
+    width: 100%;
+}
+.page__row.__personal .personal__block div.cart__issue .issue__line{
+    display: inline-block;
+    width: 100%;
+}
+.page__row.__personal .personal__block div.cart__issue .issue__line p{
+    padding: 10px 0;
+    color: #939597;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+}
+.page__row.__personal .personal__block div.cart__issue .issue__line .issue__to{
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    background: #000000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.page__row.__personal .personal__block div.cart__issue .issue__line .issue__to span{
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
 .page__row.__personal .personal__block span.like__icon{
     display: block;
     width: 25px;
@@ -144,6 +280,79 @@ html{
     margin-left: -15px;
     background: url('../img/template/icons/region__icon.png') no-repeat;
 }
+.page__row.__personal .personal__block div.region__delivery{
+    display: none;
+    position: absolute;
+    width: 470px;    
+    top: 45px;
+    left: -100%;    
+    border: 1px solid #f4f4f4;
+    background: #ffffff;
+}
+.page__row.__personal .personal__block div.region__delivery:before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid;
+    border-color: transparent transparent #f4f4f4 transparent;
+    display: block;
+    top: -40px;
+    right: 50%;
+    margin-right: -10px;
+}
+.page__row.__personal .personal__block div.region__delivery:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 50%;
+    margin-right: -10px;
+    top: -39px;
+    border: 20px solid;
+    border-color: transparent transparent #ffffff transparent;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__region{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 8;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__region p{
+    color: #a5a1a2;
+    font-size: 13px;
+    line-height: 20px;
+    border-bottom: 1px dotted #a5a1a2;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__region p:hover{
+    border-bottom: 1px solid transparent;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__info{
+    padding: 20px 15px 15px;
+    text-align: left;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__info p{
+    font-size: 15px;
+    line-height: 25px;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__info p span.__small{
+    font-size: 13px;
+    line-height: 20px;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__addition{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background: #f6f5f5;
+}
+.page__row.__personal .personal__block div.region__delivery .delivery__addition p{
+    color: #a5a1a2;
+    font-size: 13px;
+    line-height: 20px;
+}
+
 .page__row.__personal .personal__block span.login__text{
     font-size: 13px;
     line-height: 20px;
@@ -161,7 +370,6 @@ html{
 .page__row.__crumbs{
     padding: 0 22px;
 }
-
 .page__row.__crumbs .crumbs__link{
     font-size: 13px;
     text-decoration: none;
@@ -872,7 +1080,7 @@ html{
     color: #c0c0c0;
     font-size: 10px;
     line-height: 15px;
-    padding: px;
+/*    padding: 20px;*/
     text-transform: uppercase;
 }
 
@@ -880,7 +1088,15 @@ html{
 
 
 
-
+.helpers__block.__overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(246, 245, 245, 0.81);
+    z-index: 98;
+}
 
 
 

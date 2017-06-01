@@ -43,12 +43,96 @@
                     <div class="personal__block __region">
                         <span class="region__text __roboto_light">Санкт-Петербург</span>
                         <span class="region__icon"></span>
+                        <div class="region__delivery">
+                            <div class="delivery__region __roboto_light">
+                                <p>Изменить город</p>
+                            </div>
+                            <div class="delivery__info __roboto_light">
+                                <p>Доствака в г. Санкт-Петербург</p>
+                                <p>Стоимость: <span class="__book_italic">400 руб.</span></p>
+                                <p>
+                                    <span class="__small">Срок: 1-2 дня (ориентировочно 5 апреля 2017г. с 10:00 - 18:00)</span>
+                                        </p>
+                            </div>
+                            <div class="delivery__addition __roboto_light">
+                                <p>Для бесплатной доставки осталось повысить сумму чека на <span class="__book_italic">2 300 руб.</span></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="personal__block __like">
                         <span class="like__icon"></span>
                     </div>
                     <div class="personal__block __cart __no_border">
                         <span class="cart__icon"></span>
+                        <div class="cart__detail">
+                            <div class="cart__close"></div>
+                            <div class="cart__title __roboto_light">
+                                <p>3 товара в корзине</p>
+                            </div>
+                            <div class="cart__product">
+                                <div class="product__line">
+                                    <a href="#" target="_blank">
+                                        <div class="row __photo">
+                                            <img src="sources/img/demo/cart__preview.png">
+                                        </div>
+                                        <div class="row __info __roboto_light">
+                                            <p>Небольшая сумка из экокожи со съемным регулируемым ремешком Danielle Nicole</p>
+                                        </div>
+                                        <div class="row __price __book_italic">
+                                            <p>4 920 р.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product__line">
+                                    <a href="#" target="_blank">
+                                        <div class="row __photo">
+                                            <img src="sources/img/demo/cart__preview.png">
+                                        </div>
+                                        <div class="row __info __roboto_light">
+                                            <p>Ажурное мини-платье с вырезом на спине Lavish Alice</p>
+                                            <p>Размер XS/S</p>
+                                        </div>
+                                        <div class="row __price __book_italic">
+                                            <p>6 950 р.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product__line">
+                                    <a href="#" target="_blank">
+                                        <div class="row __photo">
+                                            <img src="sources/img/demo/cart__preview.png">
+                                        </div>
+                                        <div class="row __info __roboto_light">
+                                            <p>Шелковое асимметричное платье с открытыми плечами 
+    и спиной TOP20studio</p>
+                                            <p>Размер S</p>
+                                        </div>
+                                        <div class="row __price __book_italic">
+                                            <p class="__old">17 900 р.</p>
+                                            <p class="__new">9 600 р.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="cart__total">
+                                <div class="total__line">
+                                    <div class="row __text __roboto_light">
+                                        <p>Сумма:</p>
+                                    </div>
+                                    <div class="row __summ __book_italic">
+                                        <p>21 470 р.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart__issue">
+                                <div class="issue__line __roboto_light">
+                                    <p>Поднимите сумму заказа ещё на 800 рублей и получите доставку бесплатно</p>
+                                    <button class="issue__to">
+                                        <span class="__roboto_light">оформить</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -412,8 +496,9 @@
                         <span>•</span>
                         <span>УСЛОВИЯ</span>
                     </div>
-                <div>
+                </div>
             </div>
+            <!--<div class="helpers__block __overlay"></div>-->
             
         </div>
                 
@@ -424,7 +509,7 @@
                 nextButton: '.nav__next',
                 prevButton: '.nav__prev',
                 slidesPerView: 7,
-//                loop: true,
+                //loop: true,
                 paginationClickable: true,
             });
         </script>
