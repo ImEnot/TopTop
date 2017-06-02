@@ -572,7 +572,7 @@ html{
     background: url('../img/template/icons/list_type__icon.png') no-repeat;
 }
 .product_info__block .info__accord .__more ul.no__lists{
-    padding: 0 0 10px;
+    padding: 0 0 20px;
 }
 .product_info__block .info__accord .__more ul.no__lists li{
     padding: 0;
@@ -765,47 +765,6 @@ html{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .product_cart__block{
     display: inline-block;
     width: 530px;
@@ -956,7 +915,6 @@ html{
     text-transform: none;
 }
 .product_cart__block .product__size .size__description{
-    display: none;
     padding: 10px;
 }
 .product_cart__block .product__size .size__description p{
@@ -970,6 +928,72 @@ html{
 .product_cart__block .product__size .size__description p.__red{
     color: #d0011b;
 }
+.product_cart__block .product__subscribe{
+    width: 100%;
+}
+.product_cart__block .product__subscribe .product__form{
+    display: inline-block;
+    width: 100%;
+}
+.product_cart__block .product__form p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.product_cart__block .product__form .input__line{
+    position: relative;
+    margin: 10px 0 15px;
+    text-align: left;
+}
+.product_cart__block .product__form .input__line .in__placeholder{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: #939597;
+    font-size: 12px;
+    line-height: 16px;
+}
+.product_cart__block .product__form .input__line .in__text{
+    width: 100%;
+    padding: 25px 10px 10px;
+    font-size: 15px;
+    border: 1px solid #c6c8ca;
+}
+.product_cart__block .product__form .input__line .in__text:focus{
+    border-color: #000000;
+}
+.product_cart__block .product__form .input__line.error .in__placeholder{
+    color: #ff0000;
+}
+.product_cart__block .product__form .input__line.error .in__text{
+    border-color: #ff0000;
+}
+.product_cart__block .product__form .input__line label{
+    cursor: pointer;
+}
+.product_cart__block .product__form .input__line label .in__ch{
+    display: inline-block;
+    vertical-align: middle;
+    width: 17px;
+    height: 17px;
+    background: url(../img/template/icons/checkbox__icon.png) center center no-repeat;
+    border: 1px solid #c6c8ca;
+}
+.product_cart__block .product__form .input__line label .in__check{
+    display: none;
+}
+.product_cart__block .product__form .input__line label .in__check:checked + .in__ch{
+    background: #ffffff;
+}
+.product_cart__block .product__form .input__line label .in__name{
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+    font-size: 13px;
+    line-height: 17px;
+}
+
 
 .product_cart__block .product__buy{
     width: 100%;
